@@ -1,0 +1,81 @@
+* {
+  	box-sizing: border-box;
+}
+
+body {
+  background-image: url(http://financeblvd.com/wp-content/uploads/2017/09/the-office.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: relative;
+  margin: 0;
+  padding: 0;
+	font-family: "Helvetica", sans-serif;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: grey;
+  color: white;
+}
+
+header h1 {
+  line-height: 1;
+  margin-bottom: 1;
+}
+
+.quizContainer {
+	text-align: center;
+	margin: auto;
+	color: black;
+	width: 70%;
+  max-width: 70%;
+  height: auto;
+	background-color: rgb(242, 242, 242);
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  padding: 50px;
+  text-align: left;
+}
+
+.questionNumber, .score {
+  text-align: center;
+}
+
+button {
+	font-size: 20px;
+  background-color: #002b80;
+  color: white;
+  width: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	display: block;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.answer {
+  text-align: left;
+}
+
+img {
+  max-width: 70%;
+  width: 70%;
+}
+
