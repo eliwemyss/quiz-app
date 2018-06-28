@@ -1,5 +1,5 @@
 * {
-  	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   background-position: relative;
   margin: 0;
   padding: 0;
-	font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 header {
@@ -26,13 +26,13 @@ header h1 {
 }
 
 .quizContainer {
-	text-align: center;
-	margin: auto;
-	color: black;
-	width: 70%;
+  text-align: center;
+  margin: auto;
+  color: black;
+  width: 70%;
   max-width: 70%;
   height: auto;
-	background-color: rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242);
   padding: 20px;
   font-size: 20px;
   border-radius: 10px;
@@ -46,25 +46,34 @@ li {
   font-size: 25px;
   padding: 50px;
   text-align: left;
-}
+} 
 
 .questionNumber, .score {
   text-align: center;
 }
 
+.box {
+  background-color: rgb(242, 242, 242);
+  padding: 20px;
+  margin: 20px;
+  color: black;
+  border-radius: 10px;
+  font-size: 
+}
+
 button {
-	font-size: 20px;
+  font-size: 20px;
   background-color: #002b80;
   color: white;
   width: auto;
-	margin-bottom: 15px;
-	margin-top: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	border: none;
-	border-radius: 5px;
-	text-align: center;
-	display: block;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
 }
 button:hover {
   cursor: pointer;
